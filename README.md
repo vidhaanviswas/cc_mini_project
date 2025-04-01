@@ -1,5 +1,6 @@
 # cc_mini_project
-<b>Serverless Function Execution Platform</b>
+
+# Serverless Function Execution Platform
 
 ## Overview
 A lightweight platform for executing serverless functions using Docker and Firecracker.
