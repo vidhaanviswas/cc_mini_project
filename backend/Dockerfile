@@ -13,6 +13,7 @@ RUN apk add --no-cache bash curl && \
     chmod +x /usr/local/bin/wait-for-it.sh
 
 COPY . .
+COPY src/models ./src/models
 
 # Create non-root user
 RUN adduser -D appuser && \
