@@ -1,4 +1,5 @@
-const { Metric, Function } = require('../models');
+const { Metric } = require('../models/Metric');
+const { Function } = require('../models/Function');
 
 const recordMetric = async (req, res) => {
   try {
