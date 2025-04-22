@@ -1,0 +1,39 @@
+/serverless-platform/
+├── backend/
+│   ├── src/
+│   │   ├── config/          # Configuration files
+│   │   ├── controllers/     # Route controllers
+│   │   ├── models/          # Database models
+│   │   ├── routes/          # API routes
+│   │   ├── services/        # Business logic
+│   │   ├── utils/           # Utility functions
+│   │   ├── app.js           # Express app setup
+│   │   └── server.js        # Server startup
+│   ├── Dockerfile
+│   ├── package.json
+│   └── .env
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/      # React components
+│   │   ├── pages/           # Page components
+│   │   ├── services/        # API service calls
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── Dockerfile
+│   ├── package.json
+│   └── .env
+├── execution-engine/
+│   ├── docker/              # Docker configurations
+│   ├── firecracker/         # Firecracker configs
+│   ├── src/
+│   │   ├── executor.js      # Execution logic
+│   │   └── pool.js          # Container pool manager
+│   ├── Dockerfile
+│   └── package.json
+├── database/
+│   └── init.sql             # Database schema initialization
+├── docs/                    # Documentation
+├── .gitignore
+├── docker-compose.yml       # For local development
+└── README.md
